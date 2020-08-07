@@ -22,6 +22,6 @@ const charShifed = (select, shift) => {
   return select;
 };
 
-console.log(caesar('Mjqqt, Btwqi!', -5));
+console.log(caesar('lspe', -4));
 module.exports = caesar
 
