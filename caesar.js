@@ -16,7 +16,7 @@ const charShifed = (select, shift) => {
 
   if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)) {
     return String.fromCharCode(
-      mod(code + shift - codeSet(code), 46) + codeSet(code)
+      mod(code + shift - codeSet(code), 26) + codeSet(code)
     );
   }
   return select;
